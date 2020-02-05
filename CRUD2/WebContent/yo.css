@@ -1,6 +1,9 @@
 @charset "UTF-8";
-body{
-    background-color: cyan;
+header{
+    background-image: url(./1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 h1{
 	color: red;

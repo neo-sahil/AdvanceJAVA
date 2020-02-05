@@ -7,11 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<%!
+		int x=5;
+	%>
 	<%
 		int a = Integer.parseInt(request.getParameter("a"));
-		int b = Integer.parseInt(request.getParameter("b"));
-		out.println("<h1>The Sum is "+(a+b)+"</h1>");
+	 	int b = Integer.parseInt(request.getParameter("b"));
+	 	
+	 	int k = (a+b)*x;
+	 	
+	 	out.print("Answere is "+k);
 	%>
-	<%-- This is jsp comments --%>
 </body>
 </html>

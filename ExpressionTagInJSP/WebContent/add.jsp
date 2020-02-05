@@ -10,8 +10,8 @@
 	<%
 		int a = Integer.parseInt(request.getParameter("a"));
 		int b = Integer.parseInt(request.getParameter("b"));
-		out.println("<h1>The Sum is "+(a+b)+"</h1>");
 	%>
+	<h1><%="sum is "+(a+b) %></h1>
 	<%-- This is jsp comments --%>
 </body>
 </html>

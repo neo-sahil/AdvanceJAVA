@@ -7,11 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%
-		int a = Integer.parseInt(request.getParameter("a"));
+	<%@page import="java.util.*,java.sql.*"%><%-- this is for imporing packeges --%>
+	 <%
+	    int a = Integer.parseInt(request.getParameter("a"));
 		int b = Integer.parseInt(request.getParameter("b"));
-		out.println("<h1>The Sum is "+(a+b)+"</h1>");
-	%>
-	<%-- This is jsp comments --%>
+		out.println("<h1>The Sum is "+(a+b)+"</h1>");		
+	 %>
 </body>
 </html>
